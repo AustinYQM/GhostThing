@@ -24,6 +24,9 @@ const GhostThing = () => {
 
     useEffect(() => {
         switch (evidenceArray.length) {
+            default:
+                setPossibleGhosties(["NO POSSIBLE GHOST", "SELECT NO MORE THAN THREE EVIDENCE"]);
+                break;
             case 0:
                 setPossibleGhosties(allGhosts);
                 break;
