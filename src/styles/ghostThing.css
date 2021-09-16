@@ -1,0 +1,22 @@
+li {
+    list-style-type: none;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+
+.btn-group {
+    margin: 0 auto;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    vertical-align:middle;
+}

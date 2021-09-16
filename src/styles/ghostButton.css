@@ -1,0 +1,6 @@
+.ghostButton {
+    background-color: brown;
+}
+.ghostButton.active {
+    background-color: blue;
+}
